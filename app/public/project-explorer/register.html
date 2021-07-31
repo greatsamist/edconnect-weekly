@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <head>
+    <title>Project Explorer App</title>
+  </head>
+
+  <body>
     <header>
         <h1>
             Project Explorer
@@ -13,12 +18,11 @@
         <a href=" search.html">Projects</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
-        <a href="createproject.html">Submit</a>
     </nav>
     <main>
         <h1>Login</h1>
         
-        <form>
+        <form name="register">
             <label for="firstName">First Name:</label>
             <input type="text" id="firstName" name="firstName"><br>
             <label for="lastname">Last name:</label>
@@ -28,13 +32,13 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password"><br>
             <label for="matricNumber">Matric Number:</label>
-            <input type="text" id="matricNumber" name="matricNumber"><br>
+            <input type="text" id="matricNumber" name="matricNumber"><br /><br />
             <label for="program">Program:</label>
                 <select id="program" name="program">
                     <option value="computer_science">Computer Science</option>
                     <option value="computer_information_systems">Computer Information Systems</option>
                     <option value="computer_technology">Computer Technology</option>
-                </select><br>
+                </select><br /><br />
             <label for="graduationYear">Graduation Year</label>
                 <select id="graduationYear" name="graduationYear">
                     <option value="2013">2013</option>
@@ -45,12 +49,13 @@
                     <option value="2018">2018</option>
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
-                </select><br>
+                </select><br /><br />
 
             <input type="submit" value="Submit">
 
         </form>
         
     </main>
+    </body>
 </html>
           
