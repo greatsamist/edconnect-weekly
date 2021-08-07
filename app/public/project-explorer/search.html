@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Explorer App</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+      </head>
+      <body>
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Project Explorer</a>
+            <form class="form-inline" name="searchForm">
+              <input type="text" class="form-control mr-sm-2"  placeholder="Search Projects">
+              <button type="submit" class="btn btn-outline-light my-2 my-sm-0" >Search</button>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                  <a class="nav-link" href="createproject.html">Submit</a>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                  <a class="nav-link " href="register.html">Sign Up</a>
+                  <a class="nav-link" href="login.html">Login</a>
+                </ul>
+            </div>
+          </nav>
+        </div>
+          <br><br> 
+        <div class="container">         
+          <h3>Project Gallery</h3> 
+        </div>
+        <div class="container"> 
+          <form> 
+            <div class="form-row bg-light p-3">  
+              <div class="col">
+                <input class="form-control form-control-lg" type="text" placeholder="Search project name, authors, abstract, tags">
+              </div>
+              <div class="col"> 
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Search by</div>                            
+                  <select class="form-control form-control-lg" >
+                    <option>Name</option>
+                    <option>Description</option>
+                    <option>Author</option>
+                    <option>Tags</option>
+                    <option>Year</option>
+                  </select>
+                  </div>
+                 </div>                
+                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+            </div>
+          </form>         
+        </div>
+   
+            <br><br>
+            <div class="w-100">
+                <div class="card">
+                    <div class="card-footer">
+                        <p class="text-right">Project explorer (c) 2020 - <b>Edconnect</b></p>
+                    </div>
+                </div>
+            </div>
+
+    </body>
+</html>
