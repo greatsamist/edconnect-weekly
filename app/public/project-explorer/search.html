@@ -27,33 +27,31 @@
         <div class="container">         
           <h3>Project Gallery</h3> 
       
-        
-          <form class="form-inline" name="searchForm"> 
-            <div class="form-group bg-light p-3">  
-                <input class="form-control p-3 form-control-lg-md" name="searchTerm" type="search" placeholder="Search project name, authors, abstract, tags">
-            </div>
-            <div class="form-group bg-light p-3">
-              <button class="btn btn-ouutline-primary form-control-lg" type="search" name="searchButton">Search</button>
-            </div>  
-            <div class="form-group bg-light btn-outline-primary p-3"> 
-                  <label for="program" class="form-label"></label>                           
-                  <select class="form-control form-control-lg" name="choose" type="search">
+          <form> 
+            <div class="form-row bg-light p-3">  
+              <div class="form-group col-md-6">
+                <input class="form-control form-control-lg" name="searchTerm" type="search" placeholder="Search project name, authors, abstract, tags">
+              </div>
+              <div class="form-group col-md-2">
+                  <label class="form-control bg-light form-control-lg" name="search">Search by</label>  
+              </div>  
+              <div class="form-group col-md-2">                          
+                  <select class="form-control form-control-lg" name="searchBy">
                     <option>Name</option>
                     <option>Description</option>
                     <option>Author</option>
                     <option>Tags</option>
                     <option>Year</option>
-                    <option>Vision</option>
                   </select>
                 </div>
-              </div>      
-                <div class="form-group bg-light p-3">         
-                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                <div class="form-group col-md-2">         
+                <button type="submit" class="btn btn-lg btn-primary form-control">Submit</button>
                 </div>
-          
-          </form>         
-   
+            </div>
+          </form>           
+        </div>
             <br><br>
+          <div class="container"> 
             <div class="w-100">
                 <div class="card">
                     <div class="card-footer">
