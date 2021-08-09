@@ -23,16 +23,71 @@
                 </ul>
             </div>
         </nav>
+    </div>
         <br><br>
         <div class="container">
             <h3>Project 1</h3>
             
-            <div class="row row-cols-4 bg-light">  
-                <div class="col"><b>Created by</b><br>Computer Science</div>
+            <div class="row row-cols-4 bg-light p-2">  
+                <div class="col"><b>Created by</b><br>Mercy M</div>
                 <div class="col"><b>Date Created</b><br>03/2016</div>
-                <div class="col"><b>Last Updated</b><br>2020</div>                                 
-                <button type="submit" class="btn btn-lg btn-primary">Edit project</button>
+                <div class="col"><b>Last Updated</b><br>2020</div> 
+                <div class="col d-flex justify-content-end">                                
+                <button type="submit" class="btn btn-lg btn-primary">View project</button>
+                </div>
             </div>
+              <br><br>
+            <div class="row">
+              <div class="col">
+                <h5>Edit Project</h5>
+                <form>
+                  <div class="form-group">
+                      <label>Project Name</label>
+                      <input type="email" class="form-control" name="projectName" placeholder="Project 1">  
+                  </div>
+                  <div class="form-group">
+                      <label>Project abstract</label>
+                      <textarea class="form-control" rows="5" name="projectAbstract" placeholder="Project 1 is all about sampling project content."></textarea>
+                  </div>
+                  <div class="form-group">
+                      <label>Author(s)</label>
+                      <input type="text" class="form-control" name="author(s)" placeholder="Mercy M">
+                  </div>
+                  <div class="form-group">
+                      <label>Tag(s)</label>
+                      <input type="text" class="form-control" name="tag(s)" placeholder="#web #html">
+                  </div>
+                  <div class="form-group">
+                      <button type="submit" class="btn btn-primary">Save</button>
+                  </div>
+               </form>
+              </div>
+              <div class="col">
+                <h5>Manage Project files</h5>
+                <form> 
+                  <div class="form-row">  
+                    <div class="form-group col-6">
+                      <input class="form-control" name="Browse" type="text" placeholder="Click to open file browser">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text bg-light">Browse</div> 
+                        </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="card">
+                  <div class="card-header">
+                    <h6>Project files</h6>
+                  </div>
+                    <div class="card-body">
+                      <div class="card-text text-center">
+                           No files uploaded yet
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
         </div>
         <br>
 
