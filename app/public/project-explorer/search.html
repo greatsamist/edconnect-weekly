@@ -24,19 +24,18 @@
           </nav>
         </div>
           <br><br> 
-        <div class="container">         
+        <div class="container bg-light p-3">         
           <h3>Project Gallery</h3> 
           <form> 
-            <div class="bg-light p-3">
-            <div class="form-row">  
+              <div class="form-row">  
               <div class="form-group col-md-6">
                 <input class="form-control form-control-lg" name="searchTerm" type="search" placeholder="Search project name, authors, abstract, tags">
               </div>
-              <div class="form-group col-md-2">
-                  <label class="form-control bg-light form-control-lg" name="search">Search by</label>  
-              </div>  
-              <div class="form-group col-md-2">                          
-                  <select class="form-control form-control-lg" name="searchBy">
+              <div class="form-group col-md-4">
+                <div class="input-group-prepend">
+                  <div class="input-group-text ">Search by</div>                
+                                       
+                  <select class="form-control form-control-lg" name="searchType">
                     <option>Name</option>
                     <option>Description</option>
                     <option>Author</option>
@@ -44,12 +43,13 @@
                     <option>Year</option>
                   </select>
                 </div>
+              </div>
                 <div class="form-group col-md-2">         
                 <button type="submit" class="btn btn-lg btn-primary form-control">Submit</button>
                 </div>
-            </div>
-            </div>
-          </form>           
+              </div>
+          </form>
+          </div>        
         </div>
             <br><br>
           <div class="container"> 
